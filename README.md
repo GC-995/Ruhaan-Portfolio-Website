@@ -8,5 +8,8 @@ Find all the previous versions [here](https://github.com/GC-995/Ruhaan-Portfolio
 
 ![image](https://github.com/user-attachments/assets/993ff3ff-07a6-4060-973d-d63e6d750514)   
 
-![image](https://github.com/user-attachments/assets/084dacc7-b27e-4f1b-b12f-f417a4470d42)
+![image](https://github.com/user-attachments/assets/084dacc7-b27e-4f1b-b12f-f417a4470d42)   
+
+![image](https://github.com/user-attachments/assets/8c430c3d-9d4d-4cde-9657-aeaa0ebb587c)
+
 
