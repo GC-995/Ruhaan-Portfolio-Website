@@ -20,11 +20,11 @@ app.get('/about',(req,res)=>{
     res.send('About Us');
 });
 
-// http://localhost:3000/profile/2000/99d
+
 app.get('/profile/:commentId/:Id',(req,res)=>{
     console.log(req.params);
     const {commentId,Id}=req.params;
-    // res.send('print the commentId and Id');
+
     res.send(`Comment ID: ${req.params.commentId} and ID: ${req.params.Id}`);
 }   );
 
