@@ -1,11 +1,11 @@
 import React from 'react';
 import Home from './pages/Home';
-import { Helmet } from 'react-helmet'; // Add React Helmet for SEO optimization
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <>
-      {/* SEO Optimization with React Helmet */}
+     
       <Helmet>
         <title>Ruhaan Sharma - Portfolio</title>
         <meta name="description" content="Ruhaan Sharma's Portfolio - A Developer and Innovator" />
