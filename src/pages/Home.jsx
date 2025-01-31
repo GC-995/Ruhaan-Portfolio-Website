@@ -3,7 +3,7 @@ import ParticlesBackground from "../components/ParticlesBackground";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-// Lazy load components to improve initial load time
+
 const Hero = lazy(() => import("../components/Hero"));
 const AboutSection = lazy(() => import("../components/AboutSection"));
 const Timeline = lazy(() => import("../components/Timeline"));
@@ -18,7 +18,7 @@ function Home() {
       <Navbar />
       <ParticlesBackground />
       
-      {/* Suspense Wrapper for Lazy Loaded Components */}
+
       <Suspense fallback={<div>Loading...</div>}>
         <Hero />
         <AboutSection />
