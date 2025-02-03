@@ -6,7 +6,7 @@ function AboutSection() {
   return (
     <section id="about" className="py-20 bg-dark-100">
       <div className="container mx-auto px-6 backdrop-blur-0">
-        {/* Heading and Description */}
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -21,7 +21,7 @@ function AboutSection() {
           </p>
         </motion.div>
 
-        {/* Service Cards */}
+
         <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {[
             {
