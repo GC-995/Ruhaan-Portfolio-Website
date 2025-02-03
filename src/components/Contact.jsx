@@ -12,8 +12,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    setError(false); // Reset error state before trying again
-
+    setError(false); 
     try {
       await emailjs.sendForm(
         'service_05yuc79',
@@ -47,7 +46,7 @@ const Contact = () => {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* Contact Details */}
+
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -68,7 +67,7 @@ const Contact = () => {
             </div>
           </motion.div>
 
-          {/* Contact Form */}
+
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
