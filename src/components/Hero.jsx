@@ -8,7 +8,7 @@ const Hero = () => {
       id="home"
     >
       <div className="max-w-7xl mx-auto px-6 flex flex-col gap-8">
-        {/* Text Animations */}
+
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -40,7 +40,7 @@ const Hero = () => {
           </p>
         </motion.div>
 
-        {/* Button Animations */}
+        
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -62,7 +62,7 @@ const Hero = () => {
           </a>
         </motion.div>
 
-        {/* Scroll Indicator */}
+
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
