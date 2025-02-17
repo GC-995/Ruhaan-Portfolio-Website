@@ -3,7 +3,6 @@ import ParticlesBackground from "../components/ParticlesBackground";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-
 const Hero = lazy(() => import("../components/Hero"));
 const AboutSection = lazy(() => import("../components/AboutSection"));
 const Timeline = lazy(() => import("../components/Timeline"));
