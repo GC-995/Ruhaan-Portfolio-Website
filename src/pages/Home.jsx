@@ -17,7 +17,6 @@ function Home() {
       <Navbar />
       <ParticlesBackground />
       
-
       <Suspense fallback={<div>Loading...</div>}>
         <Hero />
         <AboutSection />
